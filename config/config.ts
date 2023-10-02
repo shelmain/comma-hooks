@@ -6,7 +6,8 @@ export default {
     type: 'none',
     exclude: [],
   },
-  publicPath: '/encode-hooks/',
+  base:"/comma-hook/",
+  publicPath: '/comma-hooks/',
   history: { type: 'hash' },
   extraBabelPlugins: [
     [
@@ -20,8 +21,8 @@ export default {
   ],
   title: 'comma hooks',
   mode: 'site',
-  favicon: '/encode-hooks/avatar.png',
-  logo: '/encode-hooks/avatar.png',
+  favicon: '/comma-hooks/avatar.png',
+  logo: '/comma-hooks/avatar.png',
   dynamicImport: {},
   manifest: {},
   hash: true,
@@ -42,7 +43,7 @@ export default {
   navs: [
     { title: '指南', path: '/guide' },
     { title: 'Hooks', path: '/hooks' },
-    { title: 'GitHub', path: 'https://github.com/encode-studio-fe/encode-hooks' },
+    { title: 'GitHub', path: 'https://github.com/xiuping-1/comma-hooks' },
   ],
   menus: {
     '/': [

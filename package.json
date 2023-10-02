@@ -1,6 +1,6 @@
 {
   "name": "comma-hooks",
-  "description": "comma React 业务 Hooks",
+  "description": " React 业务 Hooks",
   "private": true,
   "scripts": {
     "preinstall": "npx only-allow pnpm",
@@ -15,7 +15,7 @@
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
     "pub": "pnpm run build && pnpm -r --filter=./packages/* publish --no-git-checks",
-    "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta",
+    "pub:beta": "pnpm run build && pnpm -r --filter=./packages/* publish --tag beta --no-git-checks",
     "encode-fe-lint-scan": "encode-fe-lint scan",
     "encode-fe-lint-fix": "encode-fe-lint fix"
   },

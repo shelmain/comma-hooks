@@ -1,7 +1,7 @@
 ---
 title: 首页
 hero:
-  image: /encode-hooks/avatar.png
+  image: /comma-hooks/avatar.png
   desc: comma React 业务 Hooks
   actions:
     - text: 指南

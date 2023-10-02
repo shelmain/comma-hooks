@@ -19,7 +19,7 @@ export default {
       'fusion',
     ],
   ],
-  title: 'comma hooks',
+  title: '    hooks',
   mode: 'site',
   favicon: '/comma-hooks/avatar.png',
   logo: '/comma-hooks/avatar.png',
